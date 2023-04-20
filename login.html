@@ -7,7 +7,7 @@
     <title>Inicio</title>
 </head>
 <body>
-    <div align="center" style="background-color: #026A81;">
+    <div style="background-color: #026A81; width: 30%;">
         <img src="images/loginIcon.png" width=30% > </a>
         <form>
             <label for="user">Usuario:</label><br>
@@ -19,26 +19,28 @@
         </form>
     </div>
 
-    <tr>
-        <td align="center" colspan="3">
-            <table width="100%">
-                <tr>
-                    <td width="25%" align="center">                            
-                        
-                        <a href="https://es-la.facebook.com/"><img src="images/face_logo.png" width=100px></a>
-                    </td>
-                    <td width="30%" align="center">                            
-                        <a href="https://www.instagram.com/"><img src="images/Instagram_logo_2016.svg.webp" width=100px></a>
-                    </td>
-                    <td width="25%" align="center">                            
-                        <a href="https://twitter.com/?lang=es"><img src="images/Twitter-logo.svg.png" width=100px></a>
-                    </td>
-                    <td width="20%" align="center">                            
-                        <a href="https://mx.linkedin.com/"><img src="images/LinkedIn_Logo.svg.png" width=100px></a>
-                    </td>
-                </tr>
-            </table>
-        </td>
-    </tr>
+    <table width="100%" style="background-color: #026A81;">
+        <tr>
+            <td width="20%">
+                <img src="images/loginIcon.png" width=30% > </a>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <form>
+                    <label for="user">Usuario:</label><br>
+                    <input type="text" id="user" name="user" required><br>
+                    <label for="pass">Contraseña:</label><br>
+                    <input type="text" id="pass" name="pass" required><br><br>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="3">
+                <button type="button" disabled>Login</button>
+            </td>
+        </tr>
+    </table> 
+    
 </body>
 </html>
